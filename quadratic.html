@@ -12,20 +12,21 @@
         var b= 2;
         var c= 2;
         var root1,root2,imaginarypart,realpart;
-        discriminant=b*b-4*a*c;
+         let discriminant=b*b-4*a*c;
         if(discriminant>0){
             root1= (-b+sqrt(discriminant)/2*a);
             root2 = (-b-sqrt(discriminant)/2*a);
-            console.log(root1,root2);
+            console.log(root1);
         }
         else if(discriminant==0){
             root1= root2=(-b-sqrt(discriminant)/2*a);
+           
             console.log(root1);
         }
-        else{
+        /*else{
             realpart=-b/2*a;
-            imaginarypart=
-        }
+            imaginarypart=sqrt(-discriminant)/2*a;
+        }*/
     </script>
 </body>
 </html>
